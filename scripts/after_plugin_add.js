@@ -19,7 +19,7 @@ function getPreferenceValue(config, name) {
 
 module.exports = function(context){
 	'use strict';
-	if(context.opts.platforms.indexOf('browser') < 0){
+	if(context.opts.cordova.platforms.indexOf('browser') < 0){
         return;
     }
 
