@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-plugin-facebook4"
-        version="1.7.8">
+        version="1.7.9">
 
     <name>Facebook Connect</name>
 
@@ -178,5 +178,4 @@
         <!-- after_prepare hook to populate APP_ID -->
         <hook type="after_plugin_install" src="scripts/after_plugin_install.js" />
     </platform>
-
 </plugin>
